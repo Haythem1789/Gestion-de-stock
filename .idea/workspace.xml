@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acbf6ce-a1d1-4b44-b097-4d10fae8e0e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/AdresseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ArticleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeFournisseurDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/EntrepriseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/FournisseurDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeFournisseurDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneVenteDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/MvtstokDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/RolesDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/UtilisateurDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/VentesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestiondestock" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/AdresseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/AdresseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/ClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeFournisseurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/CommandeFournisseurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/EntrepriseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/EntrepriseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/FournisseurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/FournisseurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeFournisseurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneCommandeFournisseurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneVenteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/LigneVenteDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/MvtstokDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/MvtstokDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/RolesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/RolesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/UtilisateurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/UtilisateurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/VentesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/dto/VentesDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/model/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestiondestock/src/main/java/com/jebali/gestiondestock/model/AbstractEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
