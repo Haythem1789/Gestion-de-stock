@@ -1,2 +1,17 @@
-package com.jebali.gestiondestock.dto;public class RolesDto {
+package com.jebali.gestiondestock.dto;
+
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class RolesDto {
+
+    private Integer id;
+
+    private String roleName;
+
+
+    private UtilisateurDto utilisateur;
 }
