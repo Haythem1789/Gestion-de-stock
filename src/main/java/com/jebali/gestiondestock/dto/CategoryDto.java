@@ -30,7 +30,7 @@ public class CategoryDto {
         }
         //mapping categorydto ->category
         return CategoryDto.builder()
-                .id(category.getId())
+
                 .code(category.getCode())
                 .designation(category.getDesignation())
                 .build();
@@ -41,7 +41,7 @@ public class CategoryDto {
             return null;
         }
         Category category = new Category();
-        category.setId(category.getId());
+
         category.setCode(category.getCode());
         category.setDesignation(category.getDesignation());
         return  category;

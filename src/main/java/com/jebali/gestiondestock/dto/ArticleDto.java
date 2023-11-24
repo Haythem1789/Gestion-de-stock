@@ -2,6 +2,7 @@ package com.jebali.gestiondestock.dto;
 
 
 
+import com.jebali.gestiondestock.model.Article;
 import lombok.Builder;
 import lombok.Data;
 
@@ -31,5 +32,35 @@ public class ArticleDto {
     private String photo;
 
     private CategoryDto category;
+
+    public  ArticleDto fromEntity(Article article){
+        if(article ==null){
+            return  null;
+        }
+        return ArticleDto.builder()
+
+                .codeArticle(article.getCodeArticle())
+                .designation(article.getDesignation())
+                .photo(article.getPhoto())
+                .prixUnitaireHt(article.getPrixUnitaireHt())
+                .prixUnitaireTtc(article.getPrixUnitaireTtc())
+                .tauxTva(article.getTauxTva())
+                .build();
+    }
+
+    public Article toEntity(ArticleDto articleDto){
+        if (articleDto == null){
+            return null;
+        }
+        Article article = new Article();
+
+        article.setCodeArticle(article.getCodeArticle());
+        article.setPhoto(article.getPhoto());
+        article.setDesignation(article.getDesignation());
+        article.setPrixUnitaireHt(article.getPrixUnitaireHt());
+        article.setPrixUnitaireTtc(article.getPrixUnitaireTtc());
+        article.setTauxTva(article.getTauxTva());
+        return article;
+    }
 
 }

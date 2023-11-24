@@ -1,6 +1,7 @@
 package com.jebali.gestiondestock.dto;
 
 
+import com.jebali.gestiondestock.model.Mvtstok;
 import com.jebali.gestiondestock.model.TypeMvtStk;
 
 import lombok.Builder;
@@ -25,5 +26,29 @@ public class MvtstokDto {
 
 
     private ArticleDto article;
+
+    public MvtstokDto fromEntity(Mvtstok mvtstok){
+        if (mvtstok==null){
+            return null;
+        }
+        return MvtstokDto.builder()
+                .id(mvtstok.getId())
+                .quantite(mvtstok.getQuantite())
+                .dateMvt(mvtstok.getDateMvt())
+                .typeMvt(mvtstok.getTypeMvt())
+                .build();
+    }
+
+    public Mvtstok toEntity(MvtstokDto mvtstokDto){
+        if (mvtstokDto==null){
+            return null;
+        }
+        Mvtstok mvtstok = new Mvtstok();
+        mvtstok.setId(mvtstok.getId());
+        mvtstok.setQuantite(mvtstok.getQuantite());
+        mvtstok.setDateMvt(mvtstok.getDateMvt());
+        mvtstok.setTypeMvt(mvtstok.getTypeMvt());
+        return mvtstok;
+    }
 
 }

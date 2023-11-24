@@ -1,6 +1,7 @@
 package com.jebali.gestiondestock.dto;
 
 
+import com.jebali.gestiondestock.model.Ventes;
 import lombok.Builder;
 import lombok.Data;
 
@@ -19,4 +20,28 @@ public class VentesDto {
 
 
     private String commentaire;
+
+
+    public VentesDto fromEntity(Ventes ventes){
+        if (ventes==null){
+            return null;
+        }
+        return VentesDto.builder()
+                .code(ventes.getCode())
+                .dateVente(ventes.getDateVente())
+                .commentaire(ventes.getCommentaire())
+                .build();
+    }
+    public Ventes toEntity(VentesDto ventesDto){
+        if (ventesDto==null){
+            return null;
+        }
+        Ventes ventes = new Ventes();
+        ventes.setCode(ventes.getCode());
+        ventes.setDateVente(ventes.getDateVente());
+        ventes.setCommentaire(ventes.getCommentaire());
+        return ventes;
+    }
 }
+
+
