@@ -13,6 +13,10 @@ import java.math.BigDecimal;
 @Entity
 @Table(name= "article")
 public class Article extends AbstractEntity{
+
+    @Column(name = "identreprise")
+    private  Integer idEntreprise;
+
     @Column(name="codearticle")
     private String codeArticle;
 

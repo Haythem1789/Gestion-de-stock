@@ -17,6 +17,9 @@ import java.time.Instant;
 @Table(name= "mvtstock")
 public class Mvtstok extends  AbstractEntity{
 
+    @Column(name = "identreprise")
+    private  Integer idEntreprise;
+
     @Column(name = "quantite")
     private BigDecimal quantite;
 

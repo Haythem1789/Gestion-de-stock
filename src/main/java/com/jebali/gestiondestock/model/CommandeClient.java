@@ -17,6 +17,9 @@ import java.util.List;
 @Table(name= "commandeclient")
 public class CommandeClient extends AbstractEntity {
 
+    @Column(name = "identreprise")
+    private  Integer idEntreprise;
+
     @Column(name="code")
     private String code;
 
