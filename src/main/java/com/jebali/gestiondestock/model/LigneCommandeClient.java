@@ -14,6 +14,9 @@ import java.math.BigDecimal;
 @Table(name= "lignecommandeclient")
 public class LigneCommandeClient extends  AbstractEntity{
 
+    @Column(name = "identreprise")
+    private  Integer idEntreprise;
+
     @Column(name = "quantite")
     private BigDecimal quantite;
 

@@ -18,6 +18,9 @@ import java.util.List;
 @Table(name= "ventes")
 public class Ventes extends  AbstractEntity{
 
+    @Column(name = "identreprise")
+    private  Integer idEntreprise;
+
 
     @Column(name = "code")
     private String code;
