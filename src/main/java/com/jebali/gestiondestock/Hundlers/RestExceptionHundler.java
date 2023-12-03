@@ -1,6 +1,8 @@
-package com.jebali.gestiondestock.exception;
+package com.jebali.gestiondestock.Hundlers;
 
-import com.jebali.gestiondestock.Hundlers.ErrorDto;
+
+import com.jebali.gestiondestock.exception.EntityNotFoundException;
+import com.jebali.gestiondestock.exception.invalidEntityException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -21,7 +23,7 @@ public class RestExceptionHundler extends ResponseEntityExceptionHandler {
     return new  ResponseEntity<>(errorDto,notFound);
 }
 
-    @ExceptionHandler(EntityNotFoundException.class)
+    @ExceptionHandler(invalidEntityException.class)
     public ResponseEntity<ErrorDto> handleException(invalidEntityException exception , WebRequest webRequest){
         final HttpStatus badRequest = HttpStatus.BAD_REQUEST;
         final ErrorDto errorDto =new ErrorDto().builder()

@@ -22,7 +22,7 @@ public class invalidEntityException extends  RuntimeException {
         this.errorCodes = errorcCodes;
     }
 
-    public invalidEntityException(String message, List<String> errors, ErrorCodes errorcCodes) {
+    public invalidEntityException(String message,ErrorCodes errorcCodes ,List<String> errors ) {
         super(message);
         this.errorCodes = errorcCodes;
         this.errors = errors;

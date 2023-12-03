@@ -2,11 +2,15 @@ package com.jebali.gestiondestock.repository;
 
 import com.jebali.gestiondestock.model.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.NoRepositoryBean;
 
-import java.util.List;
+import java.util.Optional;
 
-public interface ArticleRepository extends JpaRepository<Integer, Article> {
+@NoRepositoryBean
+
+
+public interface ArticleRepository extends JpaRepository<Article,Integer > {
+    Optional<Article> findArticleByCodeArticle(String codeArticle);
 
 
 }
