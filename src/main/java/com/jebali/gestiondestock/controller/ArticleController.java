@@ -22,27 +22,27 @@ public class ArticleController implements ArticleApi {
 
 
     @Override
-    public ArticleDto save(ArticleDto dto) {
-        return null;
+    public ArticleDto save(ArticleDto ArticleDtodTO) {
+        return articleService.save(ArticleDtodTO);
     }
 
     @Override
     public ArticleDto findById(Integer id) {
-        return null;
+        return articleService.findById(id);
     }
 
     @Override
     public ArticleDto findByCodeArticle(String codeArticle) {
-        return null;
+        return articleService.findByCodeArticle(codeArticle);
     }
 
     @Override
     public List<ArticleDto> findAll() {
-        return null;
+        return articleService.findAll();
     }
 
     @Override
     public void delete(Integer id) {
-
+    articleService.delete(id);
     }
 }
